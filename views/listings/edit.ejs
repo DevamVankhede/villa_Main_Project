@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Edit Listing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+        color: #444;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container {
+        width: 95%;
+        max-width: 650px;
+        background: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        padding: 2.5rem 2rem;
+        animation: fadeIn 0.8s ease;
+      }
+
+      h3 {
+        text-align: center;
+        font-size: 1.8rem;
+        color: #ff6e6e;
+        margin-bottom: 30px;
+        position: relative;
+      }
+
+      h3::after {
+        content: "";
+        width: 60px;
+        height: 4px;
+        background: #ff6e6e;
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 10px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+      }
+
+      label {
+        font-weight: 500;
+        color: #555;
+        margin-bottom: 5px;
+      }
+
+      input,
+      textarea {
+        padding: 12px 15px;
+        border-radius: 12px;
+        border: 1px solid #ccc;
+        font-size: 1rem;
+        background: #fafafa;
+        transition: all 0.3s ease;
+      }
+
+      input:focus,
+      textarea:focus {
+        border-color: #ff6e6e;
+        background: #fff;
+        box-shadow: 0 0 5px rgba(255, 110, 110, 0.3);
+      }
+
+      textarea {
+        resize: vertical;
+        min-height: 100px;
+      }
+
+      .submit-btn {
+        background: linear-gradient(to right, #ff6e6e, #ffb199);
+        border: none;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding: 14px;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .submit-btn:hover {
+        background: linear-gradient(to right, #ff4b4b, #ff8b8b);
+        transform: scale(1.02);
+      }
+
+      img {
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 2rem 1.2rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h3>Edit Listing</h3>
+      <form method="POST" action="/listings/<%= listing.id %>?_method=PUT" enctype="multipart/form-data">
+        
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="listing[title]" value="<%= listing.title %>" placeholder="Enter title" />
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="listing[description]" placeholder="Enter description"><%= listing.description %></textarea>
+
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="listing[price]" value="<%= listing.price %>" placeholder="Enter price" />
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="listing[location]" value="<%= listing.location %>" placeholder="Enter location" />
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="listing[country]" value="<%= listing.country %>" placeholder="Enter country" />
+
+        <div class="image-preview">
+          <img src="<%= originalimageUrl %>" alt="Listing Image"/>
+        </div>
+
+        <label for="image">Upload New Image:</label>
+        <input type="file" id="image" name="listing[image]" />
+
+        <button type="submit" class="submit-btn">Update Listing</button>
+      </form>
+    </div>
+  </body>
+</html>
