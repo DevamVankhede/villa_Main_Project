@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const initData=require('./data.js');
 const Listing=require('../models/listing.js');
-// Devam@2117x2
+
 async function main(){
     await mongoose.connect('mongodb://localhost:27017/wanderlust');
 }
