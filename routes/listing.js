@@ -18,6 +18,26 @@ router
     wrapAsync(listingController.createdlist)
   );
 
+
+  router.get("/search", wrapAsync(async (req, res) => {
+    const { q } = req.query;
+  
+    if (!q){
+    
+      return res.redirect("/listings");
+    }
+  
+    const listings = await Listing.find({
+      $or: [
+        { title: { $regex: q, $options: "i" } },  
+        { location: { $regex: q, $options: "i" } } 
+      ]
+    });
+  
+    res.render("listings/searchResults", { listings, q });
+  }));
+  
+  
 //index route
 
 // router
@@ -44,5 +64,7 @@ router.delete(
   isOwner,
   wrapAsync(listingController.deletedlist)
 );
+
+
 
 module.exports = router;

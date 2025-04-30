@@ -89,12 +89,16 @@
 
     <div class="collapse navbar-collapse mt-3 mt-lg-0" id="navbarNavAltMarkup">
       <!-- Search Bar -->
-      <form class="search-container ms-lg-4 me-auto">
-        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+      <form class="search-container ms-lg-4 me-auto" action="/listings/search" method="GET">
+        <input class="form-control" type="search" name="q" placeholder="Search by title or location" aria-label="Search">
         <button class="btn btn-search" type="submit">
           <i class="fa fa-search"></i> Search
         </button>
       </form>
+      
+     
+      
+      
 
       <!-- Navigation Links -->
       <div class="navbar-nav ms-auto d-flex flex-column flex-lg-row align-items-center gap-2">

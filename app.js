@@ -102,8 +102,10 @@ app.use("/",userRouter);
 app.use((err, req, res, next) => {
     const { statusCode = 500, message = 'Something went wrong!' } = err;
 
-    res.status(statusCode);  
-    res.render('error.ejs', { err });  
+    console.error("🔥 Error occurred:", err); // ✅ Log the full error stack
+
+    res.status(statusCode);
+    res.render('error.ejs', { err });
 });
 
 
