@@ -347,6 +347,1106 @@ const sampleListings = [
     location: "Costa Rica",
     country: "Costa Rica",
   },
+  {
+    title: "Charming Cottage Getaway #1",
+    description: "Experience luxury like never before.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1022,
+    location: "San Francisco",
+    country: "France"
+  },
+{
+    title: "Historic Townhouse #2",
+    description: "A rustic charm with modern amenities.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3884,
+    location: "San Francisco",
+    country: "United States"
+  },
+{
+    title: "Cozy Cabin in the Woods #3",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1610641818989-c2051b5e2cfd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    price: 4964,
+    location: "San Francisco",
+    country: "United States"
+  },
+{
+    title: "Urban Apartment Oasis #4",
+    description: "Experience luxury like never before.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1529316275402-0462fcc4abd6?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    price: 709,
+    location: "Boston",
+    country: "Canada"
+  },
+{
+    title: "Charming Cottage Getaway #5",
+    description: "A rustic charm with modern amenities.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3609,
+    location: "Denver",
+    country: "Germany"
+  },
+{
+    title: "Charming Cottage Getaway #6",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 846,
+    location: "Miami",
+    country: "Canada"
+  },
+{
+    title: "Mountain View Lodge #7",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3055,
+    location: "Miami",
+    country: "Portugal"
+  },
+{
+    title: "Modern Loft in Downtown #8",
+    description: "Sleep among the treetops in style.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3929,
+    location: "San Francisco",
+    country: "Italy"
+  },
+{
+    title: "Historic Townhouse #9",
+    description: "Experience luxury like never before.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2599,
+    location: "Denver",
+    country: "Italy"
+  },
+{
+    title: "Beachfront Bungalow #10",
+    description: "A touch of history with a modern twist.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1667,
+    location: "Miami",
+    country: "Canada"
+  },
+{
+    title: "Luxury Villa with Sea View #11",
+    description: "A touch of history with a modern twist.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2819,
+    location: "Chicago",
+    country: "Germany"
+  },
+{
+    title: "Urban Apartment Oasis #12",
+    description: "Wake up to the sound of the waves.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2200,
+    location: "Chicago",
+    country: "Portugal"
+  },
+{
+    title: "Mountain View Lodge #13",
+    description: "Unmatched mountain views and comfort.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2409,
+    location: "Austin",
+    country: "Australia"
+  },
+{
+    title: "Cozy Cabin in the Woods #14",
+    description: "A touch of history with a modern twist.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 897,
+    location: "San Francisco",
+    country: "Italy"
+  },
+{
+    title: "Secluded Treehouse #15",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3203,
+    location: "Boston",
+    country: "France"
+  },
+{
+    title: "Beachfront Bungalow #16",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2568,
+    location: "Austin",
+    country: "United Kingdom"
+  },
+{
+    title: "Modern Loft in Downtown #17",
+    description: "Wake up to the sound of the waves.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3776,
+    location: "Austin",
+    country: "United Kingdom"
+  },
+{
+    title: "Rustic Farmhouse Retreat #18",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1811,
+    location: "Austin",
+    country: "Italy"
+  },
+{
+    title: "Historic Townhouse #19",
+    description: "Sleep among the treetops in style.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3327,
+    location: "Los Angeles",
+    country: "Australia"
+  },
+{
+    title: "Rustic Farmhouse Retreat #20",
+    description: "A rustic charm with modern amenities.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1410,
+    location: "New York City",
+    country: "France"
+  },
+{
+    title: "Historic Townhouse #21",
+    description: "Sleep among the treetops in style.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3234,
+    location: "Los Angeles",
+    country: "Italy"
+  },
+{
+    title: "Beachfront Bungalow #22",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1046,
+    location: "Austin",
+    country: "Portugal"
+  },
+{
+    title: "Modern Loft in Downtown #23",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4595,
+    location: "Los Angeles",
+    country: "France"
+  },
+{
+    title: "Luxury Villa with Sea View #24",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2453,
+    location: "New York City",
+    country: "Portugal"
+  },
+{
+    title: "Charming Cottage Getaway #25",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 597,
+    location: "New York City",
+    country: "United States"
+  },
+{
+    title: "Charming Cottage Getaway #26",
+    description: "Stay in the heart of the action with style.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4355,
+    location: "Portland",
+    country: "Netherlands"
+  },
+{
+    title: "Urban Apartment Oasis #27",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 596,
+    location: "Denver",
+    country: "United Kingdom"
+  },
+{
+    title: "Urban Apartment Oasis #28",
+    description: "Unmatched mountain views and comfort.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 542,
+    location: "Los Angeles",
+    country: "Germany"
+  },
+{
+    title: "Charming Cottage Getaway #29",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3073,
+    location: "Portland",
+    country: "Portugal"
+  },
+{
+    title: "Luxury Villa with Sea View #30",
+    description: "Escape to nature in this charming retreat.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4348,
+    location: "Chicago",
+    country: "Portugal"
+  },
+{
+    title: "Rustic Farmhouse Retreat #31",
+    description: "A touch of history with a modern twist.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 674,
+    location: "New York City",
+    country: "Canada"
+  },
+{
+    title: "Beachfront Bungalow #32",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1539,
+    location: "Austin",
+    country: "Spain"
+  },
+{
+    title: "Cozy Cabin in the Woods #33",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1192,
+    location: "Denver",
+    country: "Portugal"
+  },
+{
+    title: "Mountain View Lodge #34",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4481,
+    location: "Denver",
+    country: "United Kingdom"
+  },
+{
+    title: "Rustic Farmhouse Retreat #35",
+    description: "Sleep among the treetops in style.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3943,
+    location: "Boston",
+    country: "Australia"
+  },
+{
+    title: "Modern Loft in Downtown #36",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2820,
+    location: "Austin",
+    country: "United Kingdom"
+  },
+{
+    title: "Rustic Farmhouse Retreat #37",
+    description: "Wake up to the sound of the waves.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1023,
+    location: "Austin",
+    country: "Italy"
+  },
+{
+    title: "Modern Loft in Downtown #38",
+    description: "Stay in the heart of the action with style.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4327,
+    location: "Denver",
+    country: "United States"
+  },
+{
+    title: "Urban Apartment Oasis #39",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 850,
+    location: "Denver",
+    country: "Spain"
+  },
+{
+    title: "Urban Apartment Oasis #40",
+    description: "Wake up to the sound of the waves.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1827,
+    location: "Portland",
+    country: "Portugal"
+  },
+{
+    title: "Luxury Villa with Sea View #41",
+    description: "A touch of history with a modern twist.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1970,
+    location: "Austin",
+    country: "Spain"
+  },
+{
+    title: "Modern Loft in Downtown #42",
+    description: "Experience luxury like never before.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 601,
+    location: "Portland",
+    country: "United Kingdom"
+  },
+{
+    title: "Luxury Villa with Sea View #43",
+    description: "Experience luxury like never before.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3796,
+    location: "Chicago",
+    country: "France"
+  },
+{
+    title: "Cozy Cabin in the Woods #44",
+    description: "A touch of history with a modern twist.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1895,
+    location: "New York City",
+    country: "United States"
+  },
+{
+    title: "Luxury Villa with Sea View #45",
+    description: "Escape to nature in this charming retreat.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4897,
+    location: "San Francisco",
+    country: "Canada"
+  },
+{
+    title: "Rustic Farmhouse Retreat #46",
+    description: "Escape to nature in this charming retreat.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4803,
+    location: "Chicago",
+    country: "United Kingdom"
+  },
+{
+    title: "Secluded Treehouse #47",
+    description: "A rustic charm with modern amenities.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4003,
+    location: "Denver",
+    country: "Canada"
+  },
+{
+    title: "Historic Townhouse #48",
+    description: "Escape to nature in this charming retreat.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3345,
+    location: "Chicago",
+    country: "Italy"
+  },
+{
+    title: "Urban Apartment Oasis #49",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1013,
+    location: "New York City",
+    country: "France"
+  },
+{
+    title: "Secluded Treehouse #50",
+    description: "A touch of history with a modern twist.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 972,
+    location: "Denver",
+    country: "Netherlands"
+  },
+{
+    title: "Luxury Villa with Sea View #51",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4326,
+    location: "Boston",
+    country: "United States"
+  },
+{
+    title: "Cozy Cabin in the Woods #52",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1245,
+    location: "Seattle",
+    country: "United States"
+  },
+{
+    title: "Beachfront Bungalow #53",
+    description: "Experience luxury like never before.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4333,
+    location: "Chicago",
+    country: "Netherlands"
+  },
+{
+    title: "Beachfront Bungalow #54",
+    description: "Stay in the heart of the action with style.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 976,
+    location: "Austin",
+    country: "United Kingdom"
+  },
+{
+    title: "Secluded Treehouse #55",
+    description: "Escape to nature in this charming retreat.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4993,
+    location: "Portland",
+    country: "United States"
+  },
+{
+    title: "Modern Loft in Downtown #56",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1245,
+    location: "Los Angeles",
+    country: "Portugal"
+  },
+{
+    title: "Urban Apartment Oasis #57",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4982,
+    location: "Chicago",
+    country: "France"
+  },
+{
+    title: "Secluded Treehouse #58",
+    description: "Escape to nature in this charming retreat.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 789,
+    location: "Los Angeles",
+    country: "Portugal"
+  },
+{
+    title: "Mountain View Lodge #59",
+    description: "Unmatched mountain views and comfort.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4888,
+    location: "Los Angeles",
+    country: "Australia"
+  },
+{
+    title: "Charming Cottage Getaway #60",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3151,
+    location: "Portland",
+    country: "Netherlands"
+  },
+{
+    title: "Charming Cottage Getaway #61",
+    description: "Experience luxury like never before.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1309,
+    location: "Portland",
+    country: "France"
+  },
+{
+    title: "Urban Apartment Oasis #62",
+    description: "Experience luxury like never before.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4740,
+    location: "Los Angeles",
+    country: "Spain"
+  },
+{
+    title: "Beachfront Bungalow #63",
+    description: "Experience luxury like never before.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3857,
+    location: "San Francisco",
+    country: "United Kingdom"
+  },
+{
+    title: "Cozy Cabin in the Woods #64",
+    description: "Escape to nature in this charming retreat.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3979,
+    location: "Seattle",
+    country: "France"
+  },
+{
+    title: "Luxury Villa with Sea View #65",
+    description: "Escape to nature in this charming retreat.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2864,
+    location: "Los Angeles",
+    country: "Canada"
+  },
+{
+    title: "Beachfront Bungalow #66",
+    description: "Experience luxury like never before.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 982,
+    location: "Austin",
+    country: "United States"
+  },
+{
+    title: "Luxury Villa with Sea View #67",
+    description: "Escape to nature in this charming retreat.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1138,
+    location: "Austin",
+    country: "Italy"
+  },
+{
+    title: "Charming Cottage Getaway #68",
+    description: "Escape to nature in this charming retreat.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 574,
+    location: "Chicago",
+    country: "Portugal"
+  },
+{
+    title: "Secluded Treehouse #69",
+    description: "A rustic charm with modern amenities.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2406,
+    location: "New York City",
+    country: "United States"
+  },
+{
+    title: "Beachfront Bungalow #70",
+    description: "A touch of history with a modern twist.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3541,
+    location: "Seattle",
+    country: "Germany"
+  },
+{
+    title: "Modern Loft in Downtown #71",
+    description: "A touch of history with a modern twist.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3428,
+    location: "Los Angeles",
+    country: "United States"
+  },
+{
+    title: "Charming Cottage Getaway #72",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3926,
+    location: "Los Angeles",
+    country: "Germany"
+  },
+{
+    title: "Mountain View Lodge #73",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3306,
+    location: "Portland",
+    country: "Italy"
+  },
+{
+    title: "Charming Cottage Getaway #74",
+    description: "A touch of history with a modern twist.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 714,
+    location: "San Francisco",
+    country: "United Kingdom"
+  },
+{
+    title: "Mountain View Lodge #75",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 688,
+    location: "Austin",
+    country: "United Kingdom"
+  },
+{
+    title: "Beachfront Bungalow #76",
+    description: "Wake up to the sound of the waves.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2869,
+    location: "New York City",
+    country: "Netherlands"
+  },
+{
+    title: "Mountain View Lodge #77",
+    description: "Stay in the heart of the action with style.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2130,
+    location: "Portland",
+    country: "Spain"
+  },
+{
+    title: "Mountain View Lodge #78",
+    description: "Experience luxury like never before.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4173,
+    location: "New York City",
+    country: "Germany"
+  },
+{
+    title: "Modern Loft in Downtown #79",
+    description: "Stay in the heart of the action with style.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3069,
+    location: "San Francisco",
+    country: "Portugal"
+  },
+{
+    title: "Secluded Treehouse #80",
+    description: "Stay in the heart of the action with style.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3136,
+    location: "Chicago",
+    country: "United States"
+  },
+{
+    title: "Secluded Treehouse #81",
+    description: "A rustic charm with modern amenities.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1186,
+    location: "Miami",
+    country: "United Kingdom"
+  },
+{
+    title: "Urban Apartment Oasis #82",
+    description: "Wake up to the sound of the waves.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2354,
+    location: "Austin",
+    country: "United States"
+  },
+{
+    title: "Modern Loft in Downtown #83",
+    description: "Unmatched mountain views and comfort.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4995,
+    location: "San Francisco",
+    country: "France"
+  },
+{
+    title: "Secluded Treehouse #84",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2535,
+    location: "Austin",
+    country: "Italy"
+  },
+{
+    title: "Modern Loft in Downtown #85",
+    description: "Stay in the heart of the action with style.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1613,
+    location: "Denver",
+    country: "Australia"
+  },
+{
+    title: "Luxury Villa with Sea View #86",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4064,
+    location: "Miami",
+    country: "Canada"
+  },
+{
+    title: "Luxury Villa with Sea View #87",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2166,
+    location: "Denver",
+    country: "Italy"
+  },
+{
+    title: "Mountain View Lodge #88",
+    description: "A rustic charm with modern amenities.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 1921,
+    location: "Portland",
+    country: "Italy"
+  },
+{
+    title: "Historic Townhouse #89",
+    description: "A rustic charm with modern amenities.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4690,
+    location: "New York City",
+    country: "Canada"
+  },
+{
+    title: "Beachfront Bungalow #90",
+    description: "Sleep among the treetops in style.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 727,
+    location: "Seattle",
+    country: "Spain"
+  },
+{
+    title: "Secluded Treehouse #91",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 3988,
+    location: "Denver",
+    country: "Australia"
+  },
+{
+    title: "Cozy Cabin in the Woods #92",
+    description: "Escape to nature in this charming retreat.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 746,
+    location: "Boston",
+    country: "Netherlands"
+  },
+{
+    title: "Urban Apartment Oasis #93",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1560185127-6ec5e69ba187?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 764,
+    location: "Seattle",
+    country: "Italy"
+  },
+{
+    title: "Urban Apartment Oasis #94",
+    description: "Unmatched mountain views and comfort.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2729,
+    location: "Chicago",
+    country: "United Kingdom"
+  },
+{
+    title: "Luxury Villa with Sea View #95",
+    description: "Urban living with serene interiors.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2016,
+    location: "New York City",
+    country: "Germany"
+  },
+{
+    title: "Urban Apartment Oasis #96",
+    description: "Unmatched mountain views and comfort.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 2143,
+    location: "Boston",
+    country: "United Kingdom"
+  },
+{
+    title: "Rustic Farmhouse Retreat #97",
+    description: "Perfect for a peaceful weekend away.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 4968,
+    location: "Portland",
+    country: "Australia"
+  },
+{
+    title: "Charming Cottage Getaway #98",
+    description: "Sleep among the treetops in style.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 633,
+    location: "Austin",
+    country: "France"
+  },
+{
+    title: "Urban Apartment Oasis #99",
+    description: "Experience luxury like never before.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 916,
+    location: "Chicago",
+    country: "Canada"
+  },
+{
+    title: "Modern Loft in Downtown #100",
+    description: "Experience luxury like never before.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    price: 802,
+    location: "San Francisco",
+    country: "United Kingdom"
+  },
 ];
 
 module.exports = { data: sampleListings };

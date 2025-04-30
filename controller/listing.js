@@ -13,11 +13,11 @@ module.exports.renderNewForm=(req, res) => {
 };
  
 module.exports.showdata=async (req, res, next) => {
+   try {
     const { id } = req.params;
-    const listing = await Listing.findById(id).populate({path:"review",
-      populate:{
-        path:"author",
-      }
+    const listing = await Listing.findById(id).populate({
+      path: "review", 
+      populate: { path: "author" }
     }).populate("owner");
      
     if (!listing) {
@@ -27,6 +27,9 @@ module.exports.showdata=async (req, res, next) => {
   console.log(listing);
   
     res.render('listings/show', { listing });
+   } catch (error) {
+    console.log(error);
+   }
   }
 
 
